@@ -10,4 +10,4 @@
   
 end
 
-square_array(numbers)
+
