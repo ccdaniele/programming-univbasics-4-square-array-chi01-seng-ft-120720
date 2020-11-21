@@ -8,5 +8,3 @@
   end
   p new_array
 end
-
-square_array(new_array)
