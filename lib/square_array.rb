@@ -7,7 +7,7 @@
     new_array.push(array[index] **2)
   end
   p new_array
-  
 end
 
+square_array(array)
 
