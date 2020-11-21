@@ -1,9 +1,13 @@
-def square_array(array)
-counter = 0
-new_array = []
-while counter < array.length {
-new_array.push(array[counter]**2)
-counter += 1
-}
-return new_array
+ def square_array (numbers)
+  numbers = [1,2,3]
+  new_array = []
+  
+  length = numbers.length
+  length.times do |index|
+    new_array.push(numbers[index] **2)
+  end
+  puts new_array
+  
 end
+
+square_array(numbers)
